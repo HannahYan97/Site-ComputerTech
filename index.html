@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Imagem do Favicon do Site -->
+    <link rel="shortcut icon" href="img/Martz90-Circle-Addon2-Computer.ico" type="image/x-icon">
+    <title>ComputerTech</title>
+
+    <!-- Css Personalizado -->
+    <link href="css/estilo.css" rel="stylesheet"/>
+    <!-- CDN do Google Fonts de Ícones -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Css com Efeito Paralax do Materialize -->
+    <link type="text/css" rel="stylesheet" href="Paralax/materialize/css/materialize.min.css"  media="screen,projection"/>
+    <link href="Paralax/materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- Visualização em Dispositivos Móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+<body>
+
+<!-- nav-bar fixo no topo do materialize -->
+<div class="navbar-fixed">
+  <nav class="light-blue darken-4">
+    <div class="nav-wrapper row">
+      <a href="index.html" class="brand-logo left">ComputerTech</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="index.html#contato"><i class="material-icons left">phone</i>Contato</a></li>
+            <li><a href="index.html#servicos"><i class="material-icons left">build</i>Serviços</a></li>
+            <li><a href="index.html#servicos"><i class="material-icons left">smartphone</i>Mobile</a></li>
+            <li><a href="index.html#servicos" class="dropdown-button" data-activates="dropdown" data-beloworigin="true"><i class="material-icons right">arrow_drop_down</i>Desktop</a></li>
+            <li><a href="index.html#sobre"><i class="material-icons left">work</i>Sobre nós</a></li>
+          </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- links do menu side-nav -->
+<ul id="mobile-demo" class="side-nav light-blue darken-4" >
+
+<!-- Conteúdo de apresentação da side-nav -->  
+<li>
+  <div class="user-view">
+    <div class="background">
+      <img src="img/background2.jpg">
+    </div>
+      <a href="#!user"><img class="circle" src="img/logo%20informatica.jpg"></a>
+      <a href="#!name"><span class="white-text name">ComputerTech</span></a>
+      <a href="#!email"><span class="white-text email">PcTech@gmail.com</span></a>
+    </div>
+</li>
+  
+  <li><a href="index.html" class="white-text"><i class="material-icons left white-text">home</i>Home</a></li>
+  <li><a href="index.html#contato" class="white-text"><i class="material-icons left white-text">phone</i>Contato</a></li>
+  <li><a href="index.html#servicos" class="white-text"><i class="material-icons left white-text">build</i>Serviços</a></li>
+  <li><a href="index.html#servicos" class="white-text"><i class="material-icons left white-text">smartphone</i>Mobile</a></li>
+  <li><a href="index.html#servicos" class="white-text"><i class="material-icons left white-text">computer</i>Desktop</a></li>
+  <li><a href="index.html#sobre" class="white-text"><i class="material-icons left white-text">work</i>Sobre nós</a></li>
+</ul>
+
+
+<!-- menu dropdown -->
+<ul class="dropdown-content light-blue darken-4" id="dropdown">
+  <li><a href="#" class="white-text">Windows</a></li>
+  <li><a href="#" class="white-text">MacOS</a></li>
+  <li><a href="#" class="white-text">Linux</a></li>
+</ul>
+
+
+<!-- Banner de Apresentação do Site -->
+<div id="index-banner" class="parallax-container">
+  <div class="section no-pad-bot">
+      <div class="container">
+          <h1 class="header center">Bem-vindo a ComputerTech</h1>
+            <div class="row center">
+              <h5 class="header col s12 titulo">Oferecemos serviços de manutenção na parte de Hardware, Software e Redes</h5>
+            </div>
+            <div class="row center">
+              <a href="servico.html" class="btn-large waves-effect light-blue darken-3">Saiba mais</a>
+            </div>
+      </div>
+  </div>
+     <div class="parallax transparencia"><img src="img/background4.jpg" alt="processador"></div>
+</div>
+
+<!-- Seção de Apresentação de Serviços -->
+<div class="container">
+  <div class="section">
+    <div class="row">
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+          <h5 class="center titulo">Processamento de Dados</h5>
+          <p class="alinhar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestias dolore ut, voluptas nesciunt provident labore sequi iure dicta, doloribus adipisci laborum ipsum harum porro ratione dolorum aliquid id consectetur.Aliquam blandit euismod suscipit.</p>
+          </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+          <h5 class="center titulo">Atendimento ao Cliente</h5>
+          <p class="alinhar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestias dolore ut, voluptas nesciunt provident labore sequi iure dicta, doloribus adipisci laborum ipsum harum porro ratione dolorum aliquid id consectetur.Aliquam blandit euismod suscipit,laborum ipsum harum porro ratione dolorum aliquid id.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+          <h5 class="center titulo">Manutenção</h5>
+          <p class="alinhar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestias dolore ut, voluptas nesciunt provident labore sequi iure dicta, doloribus adipisci laborum ipsum harum porro ratione dolorum aliquid id consectetur.Aliquam blandit euismod suscipit,Aliquam blandit euismod suscipit.</p>
+        </div>
+      </div>
+
+    </div> <!-- Fecha a Div Row -->
+  </div> <!-- Fecha a Div Seção -->
+</div> <!-- Fecha a Div Container -->
+
+
+<!-- Banner de Imagem Parallax -->
+  <div class="parallax-container valign-wrapper">
+     <div class="parallax"><img src="img/background5.jpg" alt=""></div>
+  </div>
+
+
+
+<!-- Seção de História da Empresa -->
+<div class="container">
+  <div class="section">
+    <div class="row">
+
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send brown-text"></i></h3>
+        <h4 class="titulo" id="sobre">O surgimento da empresa</h4>
+        <img src="img/oie_transparent.png"/>
+        <p class="alinhar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet lectus purus. Fusce ac commodo justo. Suspendisse dictum rhoncus faucibus. Nullam viverra risus id augue maximus, ac semper lacus interdum. Aliquam blandit euismod suscipit. Suspendisse bibendum erat risus, in consectetur odio convallis in. Nullam non orci commodo, ultricies magna et, dictum nunc. Mauris ultrices arcu in enim dignissim tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas ac tincidunt ante, quis rhoncus velit.</p>
+        <p class="alinhar">Integer ac est lorem. Duis nec suscipit sapien, eu euismod augue. Proin rutrum erat quis felis aliquam, ut laoreet mauris pretium. Vestibulum id convallis ex, non commodo est. Cras lobortis eros sit amet nibh sollicitudin tempor non nec nunc. Phasellus ut nulla a diam auctor pellentesque. Praesent mattis nisi eu neque pharetra lobortis. Donec condimentum malesuada ante, quis tempus nibh commodo ut. Cras rhoncus velit a sem vulputate dignissim. Mauris at est posuere, molestie nisl at, placerat nunc. Cras eget sem lectus. Pellentesque rutrum lorem et tellus convallis malesuada. Nullam sed iaculis risus.</p>
+        <p class="alinhar">Nunc cursus ex magna, maximus scelerisque dui rutrum eget. Pellentesque lorem velit, gravida non libero at, ullamcorper volutpat felis. Sed at congue justo. Sed tellus augue, aliquam vel pellentesque eu, mattis vitae nunc. Nunc fringilla rhoncus odio vel semper. Donec at consectetur urna. Vestibulum vel sollicitudin elit, vitae blandit erat. Nullam lacus ipsum, ullamcorper eu mi fringilla, rhoncus tempus magna. Morbi quis urna efficitur, facilisis ipsum eu, hendrerit diam. Integer porta nulla ex, eu gravida nisl venenatis vitae. Suspendisse blandit sodales lorem, at porttitor felis ornare at. Donec blandit tincidunt metus at pharetra. Nullam iaculis molestie ultrices.</p>
+      </div>
+
+    </div> <!-- Fecha a Div Row -->
+  </div> <!-- Fecha a Div Section -->
+</div> <!-- Fecha a Div Container -->
+
+<!-- Banner de Imagem Parallax -->
+<div class="parallax-container valign-wrapper">
+   <div class="parallax"><img src="img/background6.jpg" alt=""></div>
+</div>
+  
+  
+<!-- Seção de Contatos -->
+<div class="container">
+  <div class="section">
+    <div class="row" id="contato">
+
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send brown-text"></i></h3>
+        <h4 class="titulo">Entre em contato conosco</h4>
+    
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_nome" type="text" class="validate">
+                  <label for="icon_nome" data-error="nome precisa ser completo">Nome completo</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">email</i>
+                  <input id="icon_email" type="email" class="validate">
+                  <label for="icon_email" data-error="email inválido">Email</label>
+                </div>
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <label for="icon_prefix2">Mensagem</label>
+                </div>
+              <a  href="#" class="btn-large waves-effect teal darken-3">Enviar</a>
+              </div>
+          </form>
+        </div>
+      </div>
+
+    </div> <!-- Fecha a Div Row -->
+  </div> <!-- Fecha a Div Seção -->
+</div> <!-- Fecha a Div Container -->
+
+<!-- Banner de Imagem Parallax -->
+<div class="parallax-container valign-wrapper">
+  <div class="parallax"><img src="img/background2.jpg" alt=""></div>
+</div>
+
+<!-- Cards com janelas modais 1ª coluna-->
+<h3 class="titulo" id="servicos">Serviços Oferecidos</h3>
+
+<div class="container">
+  <div class="row cima">
+
+    <div class="col s12 m6">
+    <div class="card">
+      <div class="card-image">
+          <img src="img/desktop.jpg"/>
+          <span class="card-title">Desktop</span>
+      </div>
+      <div class="card-content">
+        <p>Manutenção,Limpeza,Conserto,Substituição de peças antigas por novas, e entre outros.</p>
+      </div>
+    </div>
+    </div>
+  
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/celular.jpg"/>
+          <span class="card-title">Smartphone</span>
+        </div>
+        <div class="card-content">
+            <p>Manutenção,Limpeza,Conserto,Substituição de peças antigas por novas, e entre outros.</p>
+        </div>
+      </div>
+    </div>
+  
+  </div> <!-- Fecha a Div Row -->
+</div> <!-- Fecha a Div Container -->
+
+
+<!-- Cards com janelas modais 2ª coluna-->
+<div class="container">
+  <div class="row cima">
+
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/tablet.jpg"/>
+          <span class="card-title">Tablet</span>
+        </div>
+        <div class="card-content">
+          <p>Manutenção,Limpeza,Conserto,Substituição de peças antigas por novas, e entre outros.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/notebook.jpg"/>
+          <span class="card-title">Notebook</span>
+        </div>
+        <div class="card-content">
+          <p>Manutenção,Limpeza,Conserto,Substituição de peças antigas por novas, e entre outros.</p>
+        </div>
+      </div>
+    </div>  
+
+  </div> <!-- Fecha a Div Row -->
+</div> <!-- Fecha a Div Container -->
+
+<!-- Rodapé do ComputerTech -->
+<footer class="page-footer light-blue darken-4">
+  <div class="container">
+    <div class="row">
+
+        <div class="col l6 s12">
+          <h5 class="white-text">Sobre a empresa</h5>
+          <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.</p>
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Destaques</h5>
+            <ul>
+                <li><a class="white-text" href="#!">Lançamentos de Desktops</a></li>
+                <li><a class="white-text" href="#!">Programa JovemEstágio</a></li>
+                <li><a class="white-text" href="#!">Política de Segurança</a></li>
+                <li><a class="white-text" href="#!">Trabalhe Conosco</a></li>
+                <li><a class="white-text" href="#!">Serviço FastDelivery</a></li>
+            </ul>
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Redes Sociais</h5>
+            <ul>
+              <li>
+                <a class="white-text" href="#">
+                    <img src="img/facebook-logo.png" class="direita">
+                    <img src="img/twitter-logo.png" class="direita">
+                    <img src="img/instagram-logo.png" class="direita">
+                    <img src="img/youtube-logo.png">
+                </a>
+              </li>
+              <li class="topo">
+                  <a href="#" class="white-text">Espaço Cliente</a>
+              </li>
+                <li><a href="#" class="white-text">Atendimento online</a></li>
+                <li><a href="#" class="white-text">Sugestões / Reclamações</a></li>
+            </ul>
+        </div>
+
+      </div> <!-- Fecha a Div Row -->
+  </div> <!-- Fecha a Div Container -->
+
+  <div class="footer-copyright">
+      <div class="container rodape">
+        &copy;2017.ComputerTech - Todos os direitos reservados.
+      </div>
+  </div>
+</footer>
+  
+
+<!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="Paralax/materialize/js/materialize.min.js"></script>
+  <script src="Paralax/materialize/js/init.js"></script>
+<!-- menu mobile side-nav -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $(".button-collapse").sideNav();
+      });
+    </script>
+
+  </body>
+</html>
